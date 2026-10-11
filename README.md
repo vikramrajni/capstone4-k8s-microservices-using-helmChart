@@ -21,3 +21,6 @@ set the environment variable path to Linode's kubeconfig file
 Test connection to Linode’s K8S cluster Kubectl get node
 
 Deploy the microservices using "helmfile sync" command which will create the microservices defined in helmfile.yaml
+
+!! Alternate option
+Included "install.sh" and "uninstall.sh" files to create and delete the microservices using the "helm install" and "helm uninstall" commands.
